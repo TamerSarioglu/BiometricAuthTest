@@ -28,18 +28,18 @@ BiometricAuthTest is a small Android app that demonstrates how to protect a scre
 app/src/main/java/com/tamersarioglu/biometricauthtest
 |-- data/biometric
 |   |-- AndroidBiometricRepository.kt
-|   `-- BiometricPromptAuthenticator.kt
+|   |-- BiometricPromptAuthenticator.kt
 |-- domain
 |   |-- model
 |   |-- repository
-|   `-- usecase
+|   |-- usecase
 |-- presentation/biometric
 |   |-- BiometricContract.kt
 |   |-- BiometricMessages.kt
 |   |-- BiometricScreen.kt
-|   `-- BiometricViewModel.kt
+|   |-- BiometricViewModel.kt
 |-- di
-|   `-- BiometricModule.kt
+|   |-- BiometricModule.kt
 |-- BiometricAuthTestApplication.kt
 `-- MainActivity.kt
 ```
